@@ -3,6 +3,8 @@ from .models import*
 
 # Create your views here.
 print("hello")
+print("123")
+
 def crud(request):
     return render(request,"crud.html")
     # return HttpResponse("hellooo")
