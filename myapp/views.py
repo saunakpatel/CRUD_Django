@@ -2,6 +2,7 @@ from django.shortcuts import render,HttpResponse,redirect
 from .models import*    
 
 # Create your views here.
+print("hello")
 def crud(request):
     return render(request,"crud.html")
     # return HttpResponse("hellooo")
